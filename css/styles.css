@@ -1,13 +1,11 @@
-
+/*The custom font used in mockup*/
 @font-face{
 	font-family: 'bebasKai';
 	src: url('fonts/BebasKai.ttf');
 }
 
-.bodyPos{
-	padding-left: 5%;
-}
 
+/*the bar at the top of the page*/
 #linkbar {
 	height: 8%;
 	width: 100%;
@@ -19,7 +17,7 @@
 	padding-left: 1%;
 }	
 
-
+/*first row of portraits on main page*/
 .portrait{
 	float: left;
 	margin-top: 3%;
@@ -27,12 +25,14 @@
 	background-color: #D1E2E4;
 }
 
+/*second row of portraits on main page*/
 .portrait2{
 	float: left;
 	position: relative;
 	background-color: #DAEBED;
 }
 
+/* style for the nav section on right side of bar*/
 nav{
 	float: right;
 	width: 50%;
@@ -41,6 +41,7 @@ nav{
 	text-align: right;
 }
 
+/*desc box under portraits on main page*/
 #desc{
 	width: 50%;
 	font-family: bebasKai;
