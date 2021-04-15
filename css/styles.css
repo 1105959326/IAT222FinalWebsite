@@ -92,3 +92,8 @@ p{
 .cardDisplay{
 	text-align: center;
 }
+
+.groupImg{
+	width: 240px;
+	height: 240px;
+}
